@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body{
+            margin: 0;
+           }
+
+        *{
+            box-sizing: border-box;
+        }
+        h2{
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .container{
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        
+        }
+        form{
+            padding:20px ;
+           background: whitesmoke;
+           display: flex;
+           flex-direction: column;
+           min-width: 300px;
+           gap: 20px;
+           box-shadow: 0px 0px 20px grey;
+        }
+        .input{
+            margin: 10px;
+        
+        }
+        
+        .insert label{
+        display: block;
+        width: auto;
+        margin-bottom: 5px;
+        
+    }
+    
+    .insert input {
+        width: 100%;
+        padding: 9px;
+        margin-bottom: 10px;
+        
+        
+    }
+
+    .btn-cntrl button{
+        background: blue;
+        color: aliceblue;
+        width: 100%;
+        padding: 10px;
+        border: none;
+
+    }
+    button:hover{
+        background: darkblue;
+    }
+
+
+
+        
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+
+            <h2>Sign Up</h2>
+            <div class="insert">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your full name">
+                <div class="insert 1">
+                    
+                    <label>Email Address</label>
+                    <input type="email" placeholder="Enter your email"><br>
+                    <div class="insert 2">
+                        
+                        <label>Password</label>
+                        <input type="password" placeholder="Create a password"><br>
+                    </div>
+                </div>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="check">
+                <label for="check">I agree to the <a href="/terms.html">Terms & Conditions</a></label>
+            </div>
+            
+            <div class="btn-cntrl">
+                <button>Sign Up</button>
+            </div>
+        </div>
+        
+        
+        
+    </div>
+</form>
+    
+</body>
+</html>
